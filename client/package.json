@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite dev --port 3000",
+    "build": "vite build",
+    "start": "vite preview",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "types": "*",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}

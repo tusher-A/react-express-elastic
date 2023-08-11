@@ -1,0 +1,21 @@
+{
+  "name": "react-express-elastic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev --no-cache  --continue",
+    "type-check": "turbo type-check"
+  },
+  "workspaces": [
+    "client",
+    "api",
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  }
+}
